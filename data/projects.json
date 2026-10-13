@@ -1,0 +1,48 @@
+[
+  {
+    "id": "hospital-tehran",
+    "name": "166-Room Hospital",
+    "location": "Tehran, Iran",
+    "year": "2023 – Present",
+    "category": "Healthcare",
+    "role": "Senior Installation Technician",
+    "cover": "assets/img/projects/hospital.jpg",
+    "summary": "Full HVAC, plumbing, and gas system installation for a 166-room hospital.",
+    "area": "N/A",
+    "stats": [
+      { "value": "166", "label": "Rooms" },
+      { "value": "10+", "label": "Technicians Led" },
+      { "value": "-15%", "label": "Downtime" }
+    ],
+    "challenges": [
+      {
+        "problem": "Coordinating installation across multiple critical hospital zones without disrupting medical operations.",
+        "solution": "Phased scheduling with preventive maintenance windows, cutting operational disruptions by 15%."
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "residential-mashhad",
+    "name": "50+ Residential Complexes",
+    "location": "Mashhad, Iran",
+    "year": "2011 – 2022",
+    "category": "Residential",
+    "role": "Lead Installation Engineer",
+    "cover": "assets/img/projects/residential.jpg",
+    "summary": "Plumbing, heating, and cooling systems delivered for 50+ residential complexes and 15 commercial facilities.",
+    "area": "N/A",
+    "stats": [
+      { "value": "50+", "label": "Complexes" },
+      { "value": "15", "label": "Commercial" },
+      { "value": "-25%", "label": "Reworks" }
+    ],
+    "challenges": [
+      {
+        "problem": "Gas pipeline design errors causing costly reworks.",
+        "solution": "AutoCAD-verified pipeline networks, reducing design-related reworks by 25%."
+      }
+    ],
+    "gallery": []
+  }
+]
