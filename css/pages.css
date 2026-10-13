@@ -507,3 +507,119 @@
   font-size: 1.05rem;
   color: var(--text-secondary);
 }
+
+/* ===== ABOUT PAGE ===== */
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+}
+
+@media (min-width: 1024px) {
+  .about__grid {
+    grid-template-columns: 2fr 1fr;
+    gap: var(--space-xl);
+  }
+}
+
+.about__content h2 {
+  font-size: 1.75rem;
+  margin-bottom: var(--space-md);
+  color: var(--accent);
+}
+
+.about__content p {
+  margin-bottom: var(--space-md);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.about__facts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--border);
+}
+
+.fact__label {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 4px;
+}
+
+.fact__value {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.about__sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.about__card {
+  background: rgba(17, 24, 39, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+}
+
+.about__card h3 {
+  color: var(--accent);
+  font-size: 1.05rem;
+  margin-bottom: var(--space-sm);
+}
+
+.about__card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.about__card li {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.about__card li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+/* ===== ABOUT CTA ===== */
+.about-cta__box {
+  background: rgba(17, 24, 39, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-lg);
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 217, 255, 0.1);
+}
+
+.about-cta__box h2 {
+  font-size: 1.75rem;
+  margin-bottom: var(--space-xs);
+  color: var(--accent);
+}
+
+.about-cta__box p {
+  margin-bottom: var(--space-md);
+  color: var(--text-secondary);
+}
