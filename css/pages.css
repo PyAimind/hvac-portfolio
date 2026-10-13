@@ -927,3 +927,215 @@
   line-height: 1.6;
   color: var(--text-primary);
 }
+/* ===== RESUME PAGE ===== */
+.resume {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.resume__header {
+  text-align: center;
+  padding-bottom: var(--space-lg);
+  border-bottom: 2px solid var(--border);
+  margin-bottom: var(--space-lg);
+}
+
+.resume__header h2 {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.resume__header p {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.resume__location {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.resume__section {
+  margin-bottom: var(--space-lg);
+}
+
+.resume__section-title {
+  font-size: 1.25rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: var(--space-md);
+}
+
+/* Skills */
+.resume__skills {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+@media (min-width: 640px) {
+  .resume__skills { grid-template-columns: repeat(2, 1fr); }
+}
+
+.resume__skill-group h4 {
+  font-size: 1rem;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.resume__skill-group ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.resume__skill-group li {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  padding-left: 1rem;
+  position: relative;
+}
+
+.resume__skill-group li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+/* Experience */
+.resume__job {
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-md);
+  border-bottom: 1px dashed var(--border);
+}
+
+.resume__job:last-child {
+  border-bottom: none;
+}
+
+.resume__job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.resume__job-role {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+}
+
+.resume__job-period {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--accent);
+}
+
+.resume__job-company {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.resume__job-highlights {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.resume__job-highlights li {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  padding-left: 1rem;
+  position: relative;
+}
+
+.resume__job-highlights li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+/* Certifications */
+.resume__cert {
+  padding: var(--space-sm) 0;
+  border-bottom: 1px dashed var(--border);
+}
+
+.resume__cert:last-child {
+  border-bottom: none;
+}
+
+.resume__cert h4 {
+  font-size: 1rem;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.resume__cert p {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+/* Languages */
+.resume__languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.resume__language {
+  flex: 1;
+  min-width: 150px;
+  padding: var(--space-sm) var(--space-md);
+  background: rgba(17, 24, 39, 0.6);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm);
+}
+
+.resume__language-name {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--accent);
+  margin-bottom: 2px;
+}
+
+.resume__language-level {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+/* Print styles */
+@media print {
+  .navbar, .footer, .about-cta, .hero__cta {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    background-image: none !important;
+    color: black !important;
+  }
+  .resume__section-title,
+  .resume__header h2,
+  .resume__language-name,
+  .resume__job-period {
+    color: #0066cc !important;
+  }
+  .resume__skill-group li::before,
+  .resume__job-highlights li::before {
+    color: #0066cc !important;
+  }
+}
