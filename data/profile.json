@@ -1,0 +1,25 @@
+{
+  "name": "Reza Valizadeh",
+  "title": "Mechanical & HVAC Engineer",
+  "tagline": "Designing efficient building systems for residential, commercial, and industrial projects worldwide.",
+  "summary": "Building installations engineer and technician with 20+ years of hands-on experience across residential, commercial, and industrial projects. Successfully completed 100+ HVAC and plumbing systems, delivered projects worth over $2M, and trained 6+ apprentices into certified technicians.",
+  "location": "Mashhad, Iran",
+  "contact": {
+    "email": "",
+    "linkedin": "",
+    "whatsapp": "",
+    "telegram": ""
+  },
+  "cv": "assets/cv/resume.pdf",
+  "stats": [
+    { "value": "20+", "label": "Years Experience" },
+    { "value": "100+", "label": "Projects" },
+    { "value": "$2M+", "label": "Project Value" },
+    { "value": "20+", "label": "Apprentices Trained" }
+  ],
+  "languages": [
+    { "name": "Persian", "level": "Native" },
+    { "name": "Kurdish (Kermanji)", "level": "Fluent" },
+    { "name": "English", "level": "intermediate" }
+  ]
+}
