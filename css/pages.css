@@ -485,3 +485,25 @@
     border: none;
   }
 }
+
+/* ===== PAGE HERO ===== */
+.page-hero {
+  padding: var(--space-xl) 0 var(--space-lg);
+  text-align: center;
+}
+
+.page-hero__title {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-sm);
+}
+
+@media (min-width: 768px) {
+  .page-hero__title { font-size: 3.5rem; }
+}
+
+.page-hero__subtitle {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+}
