@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Reza Valizadeh</title>
+  <meta name="description" content="Contact Reza Valizadeh for mechanical & HVAC projects.">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="canonical" href="https://pyaimind.github.io/hvac-portfolio/contact.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/vendor/aos.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar__container">
+      <a href="index.html" class="navbar__brand">
+        <span class="navbar__logo">RV</span>
+        <span class="navbar__name">Reza Valizadeh</span>
+      </a>
+      <nav class="navbar__nav" id="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="navbar__toggle" id="navbar-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="page-hero__title" data-aos="fade-up">Get in Touch</h1>
+        <p class="page-hero__subtitle" data-aos="fade-up" data-aos-delay="100">
+          Available for international projects, consulting, and collaboration.
+        </p>
+      </div>
+    </section>
+
+    <section class="section contact-page">
+      <div class="container">
+        <div class="contact-page__grid">
+
+          <!-- ========== CONTACT INFO ========== -->
+          <div class="contact-info" data-aos="fade-right">
+            <h2 class="contact-info__title">Contact Information</h2>
+            <p class="contact-info__text">
+              Reach out through any of the channels below. I typically respond within 24 hours.
+            </p>
+
+            <ul class="contact-info__list" id="contact-info-list">
+              <!-- Filled by JS -->
+            </ul>
+
+            <div class="contact-info__note">
+              <strong>Languages:</strong> Persian, Kurdish, English
+            </div>
+          </div>
+
+          <!-- ========== CONTACT FORM ========== -->
+          <div class="contact-form-wrapper" data-aos="fade-left">
+            <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+              <h2 class="contact-form__title">Send a Message</h2>
+
+              <!-- Web3Forms Access Key -->
+              <input type="hidden" name="access_key" value="52874c96-7edb-407d-ae04-b42babadc8c4">
+
+              <!-- Anti-spam honeypot -->
+              <input type="checkbox" name="botcheck" style="display: none !important;">
+
+              <div class="form-group">
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" name="name" placeholder="John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Your Email</label>
+                <input type="email" id="contact-email" name="email" placeholder="john@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <input type="text" id="contact-subject" name="subject" placeholder="Project inquiry">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary contact-form__submit" id="contact-submit">
+                Send Message
+              </button>
+
+              <div class="contact-form__status" id="contact-status"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-cta">
+      <div class="container">
+        <div class="about-cta__box" data-aos="fade-up">
+          <h2>Prefer to see my work first?</h2>
+          <p>Browse projects or download my resume.</p>
+          <div class="hero__cta">
+            <a href="projects.html" class="btn btn--primary">View Projects</a>
+            <a href="resume.html" class="btn btn--ghost">View Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">© 2026 Reza Valizadeh. All rights reserved.</p>
+      <p class="footer__subtext">Code: MIT License · Content: All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="js/vendor/aos.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
