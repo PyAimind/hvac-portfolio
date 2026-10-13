@@ -18,7 +18,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="css/vendor/aos.css">
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/components.css">
@@ -33,7 +36,7 @@
         <span class="navbar__logo">RV</span>
         <span class="navbar__name">Reza Valizadeh</span>
       </a>
-      <nav class="navbar__nav">
+      <nav class="navbar__nav" id="navbar-nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
@@ -41,7 +44,7 @@
         <a href="resume.html">Resume</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <button class="navbar__toggle" aria-label="Toggle menu">☰</button>
+      <button class="navbar__toggle" id="navbar-toggle" aria-label="Toggle menu">☰</button>
     </div>
   </header>
 
@@ -51,19 +54,19 @@
     <section class="hero" id="hero">
       <div class="container">
         <div class="hero__content">
-          <span class="badge">Available for projects</span>
-          <h1 class="hero__title">
+          <span class="badge" data-aos="fade-down">Available for projects</span>
+          <h1 class="hero__title" data-aos="fade-up">
             Mechanical & <span class="highlight">HVAC Engineer</span>
           </h1>
-          <p class="hero__subtitle" id="hero-tagline">
+          <p class="hero__subtitle" id="hero-tagline" data-aos="fade-up" data-aos-delay="100">
             Designing efficient building systems for residential, commercial, and industrial projects worldwide.
           </p>
-          <div class="hero__cta">
+          <div class="hero__cta" data-aos="fade-up" data-aos-delay="200">
             <a href="assets/cv/resume.pdf" class="btn btn--primary" download>Download CV</a>
             <a href="projects.html" class="btn btn--ghost">View Projects</a>
             <a href="contact.html" class="btn btn--ghost">Contact Me</a>
           </div>
-          <div class="hero__stats" id="hero-stats">
+          <div class="hero__stats" id="hero-stats" data-aos="fade-up" data-aos-delay="300">
             <!-- Filled by JS -->
           </div>
         </div>
@@ -73,7 +76,7 @@
     <!-- ============ SKILLS ============ -->
     <section class="skills section" id="skills">
       <div class="container">
-        <h2 class="section__title">Technical Skills</h2>
+        <h2 class="section__title" data-aos="fade-up">Technical Skills</h2>
         <div class="skills__grid" id="skills-grid">
           <!-- Filled by JS -->
         </div>
@@ -83,11 +86,11 @@
     <!-- ============ FEATURED PROJECTS ============ -->
     <section class="projects section" id="projects">
       <div class="container">
-        <h2 class="section__title">Featured Projects</h2>
+        <h2 class="section__title" data-aos="fade-up">Featured Projects</h2>
         <div class="projects__grid" id="featured-projects">
           <!-- Filled by JS -->
         </div>
-        <div class="section__cta">
+        <div class="section__cta" data-aos="fade-up">
           <a href="projects.html" class="btn btn--ghost">View All Projects →</a>
         </div>
       </div>
@@ -96,7 +99,7 @@
     <!-- ============ EXPERIENCE ============ -->
     <section class="experience section" id="experience">
       <div class="container">
-        <h2 class="section__title">Experience</h2>
+        <h2 class="section__title" data-aos="fade-up">Experience</h2>
         <div class="timeline" id="experience-timeline">
           <!-- Filled by JS -->
         </div>
@@ -106,7 +109,7 @@
     <!-- ============ CERTIFICATIONS ============ -->
     <section class="credentials section" id="certifications">
       <div class="container">
-        <h2 class="section__title">Education & Certifications</h2>
+        <h2 class="section__title" data-aos="fade-up">Education & Certifications</h2>
         <div class="credentials__grid" id="certifications-grid">
           <!-- Filled by JS -->
         </div>
@@ -116,7 +119,7 @@
     <!-- ============ LANGUAGES ============ -->
     <section class="languages section" id="languages">
       <div class="container">
-        <h2 class="section__title">Languages</h2>
+        <h2 class="section__title" data-aos="fade-up">Languages</h2>
         <div class="languages__grid" id="languages-grid">
           <!-- Filled by JS -->
         </div>
@@ -126,11 +129,11 @@
     <!-- ============ CONTACT ============ -->
     <section class="contact section" id="contact">
       <div class="container">
-        <h2 class="section__title">Let's Work Together</h2>
-        <p class="contact__subtitle">
+        <h2 class="section__title" data-aos="fade-up">Let's Work Together</h2>
+        <p class="contact__subtitle" data-aos="fade-up" data-aos-delay="100">
           Available for international projects. Reach out for collaboration or consulting.
         </p>
-        <div class="contact__actions">
+        <div class="contact__actions" data-aos="fade-up" data-aos-delay="200">
           <a href="contact.html" class="btn btn--primary">Get in Touch</a>
         </div>
       </div>
@@ -151,6 +154,7 @@
   </footer>
 
   <!-- ============ SCRIPTS ============ -->
+  <script src="js/vendor/aos.js"></script>
   <script src="js/utils.js"></script>
   <script src="js/main.js"></script>
 
