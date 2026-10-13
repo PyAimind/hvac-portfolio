@@ -8,10 +8,12 @@
     "role": "Senior Installation Technician",
     "cover": "assets/img/projects/hospital.jpg",
     "summary": "Full HVAC, plumbing, and gas system installation for a 166-room hospital.",
+    "tags": ["HVAC", "Plumbing", "Gas", "Fire Safety"],
     "area": "N/A",
+    "featured": true,
     "stats": [
       { "value": "166", "label": "Rooms" },
-      { "value": "10+", "label": "Technicians Led" },
+      { "value": "10+", "label": "Technicians" },
       { "value": "-15%", "label": "Downtime" }
     ],
     "challenges": [
@@ -31,7 +33,9 @@
     "role": "Lead Installation Engineer",
     "cover": "assets/img/projects/residential.jpg",
     "summary": "Plumbing, heating, and cooling systems delivered for 50+ residential complexes and 15 commercial facilities.",
+    "tags": ["HVAC", "Plumbing", "AutoCAD"],
     "area": "N/A",
+    "featured": true,
     "stats": [
       { "value": "50+", "label": "Complexes" },
       { "value": "15", "label": "Commercial" },
