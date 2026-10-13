@@ -1,0 +1,40 @@
+[
+  {
+    "title": "HVAC Design & Installation",
+    "items": [
+      "Cooling & Heating Load Calculation",
+      "Duct & Pipe Sizing",
+      "Chiller & Cooling Tower Systems",
+      "VRF / Fan Coil Systems",
+      "Boiler Room & Motor Room Setup",
+      "Preventive & Corrective Maintenance"
+    ]
+  },
+  {
+    "title": "Plumbing & Fire Safety",
+    "items": [
+      "Water Supply & Drainage Systems",
+      "Gas Pipeline Design & Installation",
+      "Fire Safety & Sprinkler Systems",
+      "Railing Installations",
+      "Pump & Pipeline Repair"
+    ]
+  },
+  {
+    "title": "Welding & Fabrication",
+    "items": [
+      "Copper Pipe Welding",
+      "Industrial Welding",
+      "7018 / 6010 / CO2 Certified",
+      "Blueprint & Schematic Interpretation"
+    ]
+  },
+  {
+    "title": "Software & Tools",
+    "items": [
+      "AutoCAD — Gas Pipeline Design",
+      "Excel — Project Documentation",
+      "MS Project — Scheduling"
+    ]
+  }
+]
