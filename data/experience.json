@@ -1,38 +1,107 @@
 [
   {
-    "role": "Senior Building Installation Technician",
-    "company": "Hospital Project",
-    "location": "Tehran, Iran",
-    "period": "2023 – Present",
+    "role": "Industrial Contractor & Welding Specialist",
+    "company": "International Projects — Armenia",
+    "location": "Yerevan, Armenia",
+    "period": "2025 — 2026",
+    "type": "Contract",
     "highlights": [
-      "Directed installation of HVAC, plumbing, and gas systems in a 166-room hospital.",
-      "Coordinated and guided 10+ technicians, boosting team output by 18%.",
-      "Executed fire safety systems and boiler room setups, cutting operational disruptions by 15%.",
-      "Negotiated material sourcing that reduced project costs by 12%."
+      "Executed industrial, commercial, and construction projects across Armenia",
+      "Performed structural and high-pressure welding for international clients",
+      "Coordinated cross-border logistics of materials and specialized equipment",
+      "Delivered projects under strict European safety and quality standards"
     ]
   },
   {
-    "role": "Lead Installation Engineer",
-    "company": "Construction Projects",
-    "location": "Mashhad, Iran",
-    "period": "2011 – 2022",
+    "role": "High-Pressure Welding & Steam Boiler Specialist",
+    "company": "Industrial Boiler Manufacturing & Trade",
+    "location": "Iran",
+    "period": "2024 — 2025",
+    "type": "Business Owner",
     "highlights": [
-      "Delivered plumbing, heating, and cooling systems for 50+ residential complexes and 15 commercial facilities.",
-      "Utilized AutoCAD to design and verify gas pipeline networks, achieving a 25% drop in design-related reworks.",
-      "Implemented fire safety systems and railing installations for multi-story projects.",
-      "Supervised welding and copper pipefitting works, completing assignments 15% ahead of schedule.",
-      "Trained and mentored 6 apprentices, all of whom became certified technicians."
+      "Manufactured industrial steam boilers to international pressure-vessel standards",
+      "Performed high-pressure pipe welding for steam and process systems",
+      "Traded and supplied industrial boilers to manufacturing facilities",
+      "Ensured compliance with ASME and ISO welding codes"
     ]
   },
   {
-    "role": "Mechanical Technician",
-    "company": "Independent Contractor",
-    "location": "Iran & Turkey",
-    "period": "2003 – 2010",
+    "role": "Senior Industrial & Commercial Contractor",
+    "company": "Multi-City Operations",
+    "location": "Tehran, Mashhad, Isfahan & other cities",
+    "period": "2022 — 2024",
+    "type": "Contractor",
     "highlights": [
-      "Installed and maintained HVAC, piping, and boiler room systems for residential and industrial clients.",
-      "Resolved 40+ urgent mechanical breakdowns per year, ensuring minimal downtime.",
-      "Enhanced system reliability through troubleshooting, cutting equipment failures by 10%."
+      "Led industrial mechanical installations across multiple Iranian cities",
+      "Executed MEP and process piping for professional-grade facilities",
+      "Managed specialized teams for high-precision welding and fabrication",
+      "Delivered turnkey industrial packages for private clients"
+    ]
+  },
+  {
+    "role": "International Welder & Gas Piping Specialist",
+    "company": "Cross-Border Projects",
+    "location": "Istanbul & Ankara, Turkey",
+    "period": "2020 — 2022",
+    "type": "Contract",
+    "highlights": [
+      "Performed certified welding for industrial and commercial buildings",
+      "Installed gas piping systems according to European EN standards",
+      "Worked alongside international contractors on multi-disciplinary sites",
+      "Adapted to Turkish and EU safety regulations on active job sites"
+    ]
+  },
+  {
+    "role": "Senior Mechanical Contractor & Project Manager",
+    "company": "General Contracting — Large-Scale Projects",
+    "location": "Iran",
+    "period": "2012 — 2020",
+    "type": "Business Owner",
+    "highlights": [
+      "Managed teams of 50+ technicians across simultaneous projects",
+      "Delivered hospital MEP installations including medical gas systems",
+      "Completed large commercial complexes with 100+ residential units each",
+      "Oversaw budgeting, scheduling, and quality control for all projects",
+      "Coordinated with architects, structural engineers, and clients"
+    ]
+  },
+  {
+    "role": "International Certified Welder",
+    "company": "Industrial Pipe Welding",
+    "location": "Iran",
+    "period": "2009 — 2012",
+    "type": "Specialist",
+    "highlights": [
+      "Obtained International Welding Certificate (7018 / 6010 / CO2)",
+      "Performed industrial pipe welding for oil, gas, and process facilities",
+      "Applied TIG, MIG, and Stick welding techniques to critical joints",
+      "Passed radiographic and ultrasonic weld inspection tests"
+    ]
+  },
+  {
+    "role": "Building Systems Contractor",
+    "company": "MEP & Construction Projects",
+    "location": "Iran",
+    "period": "2000 — 2009",
+    "type": "Business Owner",
+    "highlights": [
+      "Registered business license and launched contracting operations",
+      "Completed 100+ residential and commercial buildings",
+      "Executed gas piping, water supply, and drainage systems",
+      "Installed HVAC, heating, cooling, and firefighting systems",
+      "Delivered structural welding and steel fabrication work"
+    ]
+  },
+  {
+    "role": "Motor & Home Systems Technician",
+    "company": "Early Career",
+    "location": "Iran",
+    "period": "Before 2000",
+    "type": "Technician",
+    "highlights": [
+      "Repaired and installed electric motors for residential buildings",
+      "Gained foundational hands-on experience in mechanical systems",
+      "Developed practical knowledge of pumps, motors, and building services"
     ]
   }
 ]

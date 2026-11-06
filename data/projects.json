@@ -1,50 +1,150 @@
 [
   {
-    "id": "hospital-tehran",
-    "name": "166-Room Hospital",
-    "location": "Tehran, Iran",
-    "year": "2023 – Present",
-    "category": "Healthcare",
-    "role": "Senior Installation Technician",
-    "cover": "assets/img/projects/hospital.jpg",
-    "summary": "Full HVAC, plumbing, and gas system installation for a 166-room hospital.",
-    "tags": ["HVAC", "Plumbing", "Gas", "Fire Safety"],
-    "area": "N/A",
+    "id": "armenia-industrial-complex",
+    "name": "Industrial Complex — Armenia",
+    "location": "Yerevan, Armenia",
+    "year": "2025",
+    "category": "Industrial",
+    "role": "Contractor & Welding Specialist",
+    "cover": "assets/img/projects/armenia.jpg",
+    "summary": "Multi-disciplinary industrial installation combining structural, mechanical, and welding works for an international client in Armenia.",
+    "tags": ["Industrial", "Welding", "International", "MEP"],
     "featured": true,
     "stats": [
-      { "value": "166", "label": "Rooms" },
-      { "value": "10+", "label": "Technicians" },
-      { "value": "-15%", "label": "Downtime" }
+      { "value": "~1000~", "label": "m²" },
+      { "value": "100%", "label": "On Time" }
     ],
     "challenges": [
       {
-        "problem": "Coordinating installation across multiple critical hospital zones without disrupting medical operations.",
-        "solution": "Phased scheduling with preventive maintenance windows, cutting operational disruptions by 15%."
+        "problem": "Try to complete the project in damanded time and do it well and monitor everything.",
+        "solution": "Established a phased procurement plan and coordinated directly with local Armenian suppliers to eliminate delays."
       }
     ],
     "gallery": []
   },
   {
-    "id": "residential-mashhad",
-    "name": "50+ Residential Complexes",
-    "location": "Mashhad, Iran",
-    "year": "2011 – 2022",
-    "category": "Residential",
-    "role": "Lead Installation Engineer",
-    "cover": "assets/img/projects/residential.jpg",
-    "summary": "Plumbing, heating, and cooling systems delivered for 50+ residential complexes and 15 commercial facilities.",
-    "tags": ["HVAC", "Plumbing", "AutoCAD"],
-    "area": "N/A",
+    "id": "steam-boiler-manufacturing",
+    "name": "Industrial Steam Boiler Manufacturing",
+    "location": "Iran",
+    "year": "2024",
+    "category": "Industrial",
+    "role": "Manufacturer & Welding Specialist",
+    "cover": "assets/img/projects/boiler.jpg",
+    "summary": "Design and fabrication of high-pressure industrial steam boilers compliant with ASME pressure-vessel codes.",
+    "tags": ["Boiler", "High-Pressure", "Welding", "ASME"],
     "featured": true,
     "stats": [
-      { "value": "50+", "label": "Complexes" },
-      { "value": "15", "label": "Commercial" },
-      { "value": "-25%", "label": "Reworks" }
+      { "value": "15+", "label": "Bar" },
+      { "value": "100%", "label": "Tested" }
     ],
     "challenges": [
       {
-        "problem": "Gas pipeline design errors causing costly reworks.",
-        "solution": "AutoCAD-verified pipeline networks, reducing design-related reworks by 25%."
+        "problem": "Achieving X-ray quality welds on thick-walled pressure vessels.",
+        "solution": "Implemented multi-pass welding with pre-heat and post-weld heat treatment, verified by radiographic testing."
+      },
+      {
+        "problem": "Ensuring thermal efficiency and safe steam distribution.",
+        "solution": "Designed insulation and steam trapping systems according to ASME Section I requirements."
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "hospital-mep-tehran",
+    "name": "Hospital MEP Installation",
+    "location": "Qaen, Iran",
+    "year": "~2022~",
+    "category": "Healthcare",
+    "role": "Project Manager & Contractor",
+    "cover": "assets/img/projects/hospital.jpg",
+    "summary": "Complete mechanical, electrical, and plumbing systems for a multi-ward hospital, including medical gas pipelines and critical HVAC.",
+    "tags": ["Hospital", "MEP", "Medical Gas", "HVAC"],
+    "featured": true,
+    "stats": [
+      { "value": "12,000", "label": "m²" },
+      { "value": "100+", "label": "Beds" }
+    ],
+    "challenges": [
+      {
+        "problem": "financial problems.",
+        "solution": "Orginized a great plan for each step and try to be planner."
+      },
+      {
+        "problem": "Maintaining strict air quality in operating rooms during construction.",
+        "solution": "Coordinated with hospital staff on a phased schedule and used HEPA-filtered temporary ventilation."
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "residential-tower-100units",
+    "name": "100-Unit Residential Tower",
+    "location": "Mashhad, Iran",
+    "year": "2014-5",
+    "category": "Residential",
+    "role": "Lead Contractor",
+    "cover": "assets/img/projects/tower.jpg",
+    "summary": "Full building systems installation for a 100+ unit residential tower, including HVAC, plumbing, gas, and fire safety.",
+    "tags": ["Residential", "HVAC", "Plumbing", "Gas"],
+    "featured": true,
+    "stats": [
+      { "value": "100+", "label": "Units" },
+      { "value": "22+", "label": "Floors" }
+    ],
+    "challenges": [
+      {
+        "problem": "Balancing water pressure across 22 floors with variable demand.",
+        "solution": "Designed a zoned pressure-boosting system with separate risers for low, mid, and high-rise sections."
+      },
+      {
+        "problem": "Coordinating MEP routes with limited ceiling space.",
+        "solution": "Used BIM coordination to resolve clashes before installation, saving 3 weeks of rework."
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "turkey-industrial-welding",
+    "name": "Industrial Welding & Gas Piping",
+    "location": "Istanbul, Turkey",
+    "year": "2021-2",
+    "category": "Industrial",
+    "role": "Certified Welder",
+    "cover": "assets/img/projects/turkey.jpg",
+    "summary": "Certified welding and gas piping for commercial and industrial facilities under European EN standards.",
+    "tags": ["Welding", "Gas Piping", "EN Standards", "International"],
+    "featured": false,
+    "stats": [
+      { "value": "EN 1775", "label": "Standard" },
+      { "value": "100%", "label": "Pass Rate" }
+    ],
+    "challenges": [
+      {
+        "problem": "~~~~~.",
+        "solution": "~~~~~."
+      }
+    ],
+    "gallery": []
+  },
+  {
+    "id": "commercial-complex-gas-fire",
+    "name": "Commercial Complex — Gas & Fire Systems",
+    "location": "Mashhad, Iran",
+    "year": "2005 to 2009",
+    "category": "Commercial",
+    "role": "Contractor",
+    "cover": "assets/img/projects/commercial.jpg",
+    "summary": "Complete gas piping and firefighting systems for a multi-tenant commercial complex.",
+    "tags": ["Commercial", "Firefighting", "Gas", "Sprinkler"],
+    "featured": false,
+    "stats": [
+      { "value": "8,000", "label": "m²" },
+      { "value": "50+", "label": "Sprinklers" }
+    ],
+    "challenges": [
+      {
+        "problem": "~~~~",
+        "solution": "~~~~~"
       }
     ],
     "gallery": []
